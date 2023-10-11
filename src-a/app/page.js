@@ -1,10 +1,31 @@
-import Image from 'next/image'
+// import Image from 'next/image'
 import styles from './page.module.css'
+import baho from './pictures/baho.jpg'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
+    <main >
+
+<div class="navbar">
+  {/* <a href="#home">Home</a> */}
+  <a href="#news">BAHO</a>
+  {/* <a href="#contact">Contact</a> */}
+</div>
+
+<div class="paragraph">
+<p >
+<br/>
+<br/>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut feugiat mauris, at vehicula turpis. Ut vitae varius purus, nec facilisis libero. Duis fermentum ante nisi, sit amet suscipit ligula euismod at. Etiam est elit, sollicitudin eget tellus et, feugiat faucibus purus. Cras vel purus ipsum. Phasellus eu ligula nec diam fringilla cursus dignissim ut ex. 
+</p>
+</div>
+<div className='image'>
+<img src={baho} className='imagev'/> 
+</div>
+
+
+        {/* <h1 className='title'>BAHO</h1> */}
+      {/* <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.js</code>
@@ -89,7 +110,7 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-      </div>
+      </div> */}
     </main>
   )
 }
