@@ -2,14 +2,57 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.parallax1 {
-  background-image: url("../../img/c.blends.official_20210925_10.png");
+.navbar {
+  /* overflow: hidden; */
+  background-color: rgb(67, 195, 67);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  /* float: left; */
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 40px 60px;
+  text-decoration: none;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.nav-image {
+  width: 150px;
+  height: 50px;
+  position: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:30px; 
+  /* width: 50%; */
+}
+
+.giraffe-image {
+  width: 1500px;
+  height: 800px;
+  position: center;
+  display: block;
+  padding:30px; 
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
+
+
+
+/* .parallax1 {
+  background-image: url("../../img/giraffes-african-landscape\ \(1\).jpg");
   min-height: 500px; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 .parallax2 {
   background-image: url("../../img/alexandarcosmetics_20210926_3.png");

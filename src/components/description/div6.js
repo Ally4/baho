@@ -1,12 +1,14 @@
 import React from 'react'
+import phone from '../../img/Google Pixel 7 Pro Mockup Obsidian2.png'
 
 export default function div6() {
   return (
-    <div className="parallax3">
-            <div className="items_parallax">
-      <hr/>
-      <h1 className="in_parallax">Book Your Cut</h1>
-      <hr/>
+    <div >
+      <div >
+      <img className='giraffe-image' src={phone} />
+      {/* <hr/>
+      <h1 className="in_parallax">Enjoy Your Fresh Cuts</h1>
+      <hr/> */}
       </div>
     </div>
   )
