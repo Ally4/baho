@@ -17,7 +17,7 @@ export default function div9() {
 <div className="footer_titles"><h3>CONTACTS</h3></div>
 <div className="footer_paragraph">
   <p>+250789101080</p>
-  <p>ogoshahome@gmail.com</p>
+  {/* <p>ogoshahome@gmail.com</p> */}
   </div>
 </div>
     </div>

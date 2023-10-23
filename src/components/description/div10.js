@@ -1,4 +1,5 @@
 import React from 'react'
+import nature from '../../img/245319877_710438169913493_4179790810633231543_n.jpg'
 
 export default function div1() {
   return (
@@ -7,6 +8,7 @@ export default function div1() {
       <br />
       <h2>jhdjhdfjhfd</h2>
       <h2>A Kinyarwanda language promotion using an AI Application </h2>
+      {/* <img className='giraffe-image' src={nature} /> */}
     </div>
   )
 }
