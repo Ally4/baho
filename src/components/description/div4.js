@@ -1,11 +1,11 @@
 import React from 'react'
-import giraffe from '../../img/giraffes-african-landscape (1).jpg'
+import people from '../../img/343574497_1274848030133532_6118126416066957440_n.jpg'
 
 export default function div4() {
   return (
     <div >
       <div >
-      <img className='giraffe-image' src={giraffe} />
+      <img className='giraffe-image' src={people} />
       {/* <hr/>
       <h1 className="in_parallax">Enjoy Your Fresh Cuts</h1>
       <hr/> */}

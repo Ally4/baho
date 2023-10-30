@@ -1,5 +1,5 @@
 import React from 'react'
-import giraffe from '../../img/1697462128143.jpg'
+import giraffe from '../../img/giraffes-african-landscape (1).jpg'
 
 export default function div8() {
   return (
