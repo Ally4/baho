@@ -3,10 +3,13 @@ import nature from '../../img/245319877_710438169913493_4179790810633231543_n.jp
 
 export default function div1() {
   return (
-    <div>
+    <div className='intro-title
+    '>
       <br />
       <br />
-      <h2>jhdjhdfjhfd</h2>
+      <br />
+      <br />
+      <br />
       <h2>A Kinyarwanda language promotion using an AI Application </h2>
       {/* <img className='giraffe-image' src={nature} /> */}
     </div>
