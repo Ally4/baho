@@ -34,15 +34,18 @@
   /* width: 50%; */
 }
 
+
+
+
+
+
+/* commented for the responsiveness in media query */
 .giraffe-image {
   width: 1650px;
   height: 2000px;
   position: center;
-  /* display: block; */
-  /* padding:30px;  */
   margin-left: auto;
   margin-right: auto;
-  /* width: 50%; */
 }
 
 
@@ -68,10 +71,6 @@
   /* width: 50%; */
 }
 
-
-.img-div {
-  padding: 0%;
-}
 
 .img-div {
   padding: 0%;
@@ -211,7 +210,7 @@ hr {
 }
 
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
   .service {
     padding: 0px;
   }
@@ -237,5 +236,50 @@ hr {
   
   .items_parallax {
     padding: 0px;
+  }
+} */
+
+
+
+
+
+
+
+
+
+.img-div {
+  max-width: 100%;
+  height: auto;
+}
+
+.giraffe-image {
+  width: 100%;
+  height: auto;
+}
+
+/* Media Query for phones (up to 600px) */
+@media (max-width: 600px) {
+  .giraffe-image {
+    /* Adjust styles for phones */
+    height:30%;
+    width: 30%,
+  }
+}
+
+/* Media Query for tablets (601px to 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .giraffe-image {
+    /* Adjust styles for tablets */
+    height:60%;
+    width: 60%,
+  }
+}
+
+/* Media Query for computers (1025px and above) */
+@media (min-width: 1025px) {
+  .giraffe-image {
+    /* Adjust styles for computers */
+    height:90%;
+    width: 90%,
   }
 }

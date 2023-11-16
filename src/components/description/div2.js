@@ -6,9 +6,6 @@ export default function div2() {
     < >
       <div className='img-div'>
       <img className='giraffe-image' src={nature} />
-      {/* <hr/>
-      <h1 className="in_parallax">Enjoy Your Fresh Cuts</h1>
-      // <hr/> */}
       </div>
     </>
   )
