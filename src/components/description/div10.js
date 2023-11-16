@@ -3,8 +3,7 @@ import nature from '../../img/245319877_710438169913493_4179790810633231543_n.jp
 
 export default function div1() {
   return (
-    <div className='intro-title
-    '>
+    <div className='intro-title'>
       <br />
       <br />
       <br />

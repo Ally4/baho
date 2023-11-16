@@ -7,9 +7,6 @@ export default function div5() {
     < >
       <div className='img-div'>
       <img className='giraffe-image' src={farmer} />
-      {/* <hr/>
-      <h1 className="in_parallax">Enjoy Your Fresh Cuts</h1>
-      <hr/> */}
     </div>
     </>
   )

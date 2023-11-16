@@ -1,4 +1,5 @@
 import logo from '../../img/logo full lg.png'
+import React from 'react';
 import Div10 from '../description/div10'
 
 
