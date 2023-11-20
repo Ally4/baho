@@ -1,5 +1,5 @@
 import React from 'react'
-import phone from '../../img/Untitled presentation (6).png'
+import phone from '../../img/Untitled presentation.jpg'
 
 export default function div6() {
   return (

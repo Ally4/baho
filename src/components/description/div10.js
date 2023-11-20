@@ -9,7 +9,9 @@ export default function div1() {
       <br />
       <br />
       <br />
-      <h2>A Kinyarwanda language promotion using an AI Application </h2>
+      <br />
+      <br />
+      <h2>A Kinyarwanda language preservation and promotion using an AI solution </h2>
       {/* <img className='giraffe-image' src={nature} /> */}
     </div>
   )

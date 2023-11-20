@@ -12,6 +12,7 @@ import Div9 from '../components/description/div9'
 import Div10 from '../components/description/div10'
 import Div11 from '../components/description/div11'
 import Div12 from '../components/description/div12'
+import Div13 from '../components/description/div13'
 import Navigation from '../components/navigatiom/navigation'
 
 export default function landingpage() {
@@ -24,9 +25,10 @@ export default function landingpage() {
       <Div3 />
       <Div4 />
       <Div5 />
+      <Div12 />
+      <Div13 />
       <Div6 />
       <Div11 />
-      <Div12 />
       {/* <Div7 /> */}
       <Div8 />
     </div>
